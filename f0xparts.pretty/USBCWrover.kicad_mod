@@ -1,4 +1,4 @@
-(module "USBCWrover" (layer F.Cu) (tedit 5F5794E7)
+(module "USBCWrover" (layer F.Cu) (tedit 5F57961E)
   (fp_text reference "REF**" (at 0 -20.828 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -88,7 +88,7 @@
   (pad "25" thru_hole oval (at 11.43 -7.112) (size 2 1.2) (drill 1) (layers *.Cu *.Mask) (tstamp 60230a71-30ba-45b4-8198-7430922efbc2))
   (pad "31" thru_hole oval (at 11.43 0.508) (size 2 1.2) (drill 1) (layers *.Cu *.Mask) (tstamp 51682008-11ee-4ee8-b230-3d1852f900a9))
   (pad "29" thru_hole oval (at 11.43 -2.032) (size 2 1.2) (drill 1) (layers *.Cu *.Mask) (tstamp 9d450002-86fd-41c8-9b10-a2084ac739c3))
-  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 1bd6fbd7-dcad-4021-a86a-dec29000c3ce) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 0ff125f6-0353-46cf-b8a7-0ddf0b62f049) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
@@ -100,7 +100,7 @@
     )
   )
   (model ":f0xparts:USBCWrover.step"
-    (at (xyz 0 0 0))
+    (offset (xyz 0 -2 2.64))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
