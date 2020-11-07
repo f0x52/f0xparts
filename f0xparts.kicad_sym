@@ -299,6 +299,204 @@
       )
     )
   )
+  (symbol "f0xparts:UMH3N"
+    (property "Reference" "U" (id 0) (at -10.16 8.255 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "UMH3N" (id 1) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "SOP65P210X100-6N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (symbol "UMH3N_0_0"
+      (text "UMH3N" (at -10.16 -10.16 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
+      (polyline
+        (pts (xy 10.16 5.08) (xy 5.08 5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -10.16 5.08) (xy -5.08 5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 2.54 2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -2.54 2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 2.54) (xy -0.635 2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -0.635 2.54) (xy 5.08 2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -5.08 3.81))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -3.81 5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -10.16 0) (xy -7.62 0))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -7.62 0) (xy -6.985 0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -6.985 0.635) (xy -5.715 -0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.715 -0.635) (xy -4.445 0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -4.445 0.635) (xy -3.175 -0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -3.175 -0.635) (xy -2.54 0))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.54 0) (xy -0.635 0))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -0.635 0) (xy -0.635 2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -10.16 -5.08) (xy -5.08 -5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -2.54 -2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy 0.635 -2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0.635 -2.54) (xy 2.54 -2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 5.08 -5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 10.16 -5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -2.54 -2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 5.08 -2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 -3.81))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 3.81 -5.08))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 10.16 0) (xy 7.62 0))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 7.62 0) (xy 6.985 0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 6.985 0.635) (xy 5.715 -0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.715 -0.635) (xy 4.445 0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 4.445 0.635) (xy 3.175 -0.635))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 3.175 -0.635) (xy 2.54 0))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.54 0) (xy 0.635 0))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0.635 0) (xy 0.635 -2.54))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -10.16 7.62) (xy 10.16 7.62))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 10.16 7.62) (xy 10.16 -7.62))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 10.16 -7.62) (xy -10.16 -7.62))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -10.16 -7.62) (xy -10.16 7.62))
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (pin bidirectional line (at -15.24 5.08 0) (length 5.08)
+        (name "1" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+      (pin bidirectional line (at -15.24 0 0) (length 5.08)
+        (name "2" (effects (font (size 1.016 1.016))))
+        (number "2" (effects (font (size 1.016 1.016))))
+      )
+      (pin bidirectional line (at -15.24 -5.08 0) (length 5.08)
+        (name "3" (effects (font (size 1.016 1.016))))
+        (number "3" (effects (font (size 1.016 1.016))))
+      )
+      (pin bidirectional line (at 15.24 5.08 180) (length 5.08)
+        (name "6" (effects (font (size 1.016 1.016))))
+        (number "6" (effects (font (size 1.016 1.016))))
+      )
+      (pin bidirectional line (at 15.24 0 180) (length 5.08)
+        (name "5" (effects (font (size 1.016 1.016))))
+        (number "5" (effects (font (size 1.016 1.016))))
+      )
+      (pin bidirectional line (at 15.24 -5.08 180) (length 5.08)
+        (name "4" (effects (font (size 1.016 1.016))))
+        (number "4" (effects (font (size 1.016 1.016))))
+      )
+    )
+  )
   (symbol "f0xparts:USB-Cereal"
     (property "Reference" "J" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)))
