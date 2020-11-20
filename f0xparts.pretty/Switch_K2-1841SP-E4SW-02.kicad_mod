@@ -1,8 +1,8 @@
-(module "Switch_K2-1841SP-E4SW-02" (layer F.Cu) (tedit 5FA5CE0D)
+(module "Switch_K2-1841SP-E4SW-02" (layer F.Cu) (tedit 5FB667D1)
   (descr "Middle Stroke Tactile Switch, B3SL")
   (tags "Middle Stroke Tactile Switch")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -4.5) (layer F.SilkS)
+  (fp_text reference "REF**" (at 0 -4.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value "Switch_K2-1841SP-E4SW-02" (at 0 4.75) (layer F.Fab)
@@ -15,6 +15,7 @@
   (fp_rect (start -6 -6) (end 6 6) (layer F.CrtYd) (width 0.12))
   (fp_rect (start -6.013892 -6) (end 5.986108 6) (layer F.Fab) (width 0.12))
   (fp_rect (start -5.5 -5.5) (end 5.5 5.5) (layer F.SilkS) (width 0.12))
+  (fp_circle (center 0 0) (end 0.01 0) (layer F.Fab) (width 0.12))
   (pad "1" smd rect (at -7.5 -2.5) (size 3 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1cfdcfca-1a8c-404b-8e28-5b9b3d597917))
   (pad "2" smd rect (at -7.5 2.5) (size 3 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1cfdcfca-1a8c-404b-8e28-5b9b3d597917))
   (pad "1" smd rect (at 7.5 -2.5) (size 3 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1cfdcfca-1a8c-404b-8e28-5b9b3d597917))
